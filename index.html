@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <meta name="author" content="sahilpagare">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <title>Interactive rating component</title>
+</head>
+<body>
+  <div class="box">
+    <i class="cir"><img src="images/icon-star.svg" style="height: 10px;"></i>
+    <h3>How did we do?</h3>
+    <p>
+      Please let us know how we did with your support<br>request. All feedback is appreciated 
+      to help us<br>improve our offering!
+    </p>
+    <label><input type="radio" value="1" name="r"><spam class="sr"> 1</spam></label>
+    <label><input type="radio" value="2" name="r"><spam class="sr">2</spam></label>
+    <label><input type="radio" value="3" name="r"><spam class="sr">3</spam></label>
+    <label><input type="radio" value="4" name="r"><spam class="sr">4</spam></label>
+    <label><input type="radio" value="5" name="r"><spam class="sr">5</spam></label>
+    <br>
+    <button onclick="display()">SUBMIT</button>
+  </div>
+  <div class="ty">
+    <i><img src="images/illustration-thank-you.svg"></i>
+    <p id="p1"> You selected <span id="rate">0</span> out of 5</p>
+    <h3>Thank you!</h3>
+    <p>
+      We appreciate you taking the time to give a rating.<br> 
+      If you ever need more support, dont hesitate to<br>get in touch!
+    </p>
+  </div>
+  <script src="main.js"></script>
+</body>
+</html>
